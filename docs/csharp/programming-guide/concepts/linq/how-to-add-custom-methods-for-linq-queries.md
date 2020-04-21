@@ -60,7 +60,7 @@ double[] numbers1 = { 1.9, 2, 8, 4, 5.7, 6, 7.2, 0 };
 
 var query1 = numbers1.Median();
 
-Console.WriteLine("double: Median = " + query1);
+Console.WriteLine("Double: Median = " + query1);
 ```
 
 ```csharp
@@ -95,7 +95,7 @@ double[] numbers1 = { 1.9, 2, 8, 4, 5.7, 6, 7.2, 0 };
 
 var query1 = numbers1.Median();
 
-Console.WriteLine("double: Median = " + query1);
+Console.WriteLine("Double: Median = " + query1);
 ```
 
 ```csharp
@@ -103,7 +103,7 @@ int[] numbers2 = { 1, 2, 3, 4, 5 };
 
 var query2 = numbers2.Median();
 
-Console.WriteLine("int: Median = " + query2);
+Console.WriteLine("Integer: Median = " + query2);
 ```
 
 ```csharp
@@ -146,7 +146,7 @@ int[] numbers3 = { 1, 2, 3, 4, 5 };
 
 var query3 = numbers3.Median(num => num);
 
-Console.WriteLine("int: Median = " + query3);
+Console.WriteLine("Integer: Median = " + query3);
 
 string[] numbers4 = { "one", "two", "three", "four", "five" };
 
